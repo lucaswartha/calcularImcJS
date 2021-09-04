@@ -1,0 +1,74 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: rgb(126, 126, 126);
+}
+
+.mainBG {
+    width: 40vh;
+    height: 30vw;
+    background-color: rgb(255, 206, 82);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 15px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 20px;
+}
+
+.borderBottom {
+    border-bottom: 4px solid rgb(0, 0, 0);
+}
+
+input {
+    float:right;
+    margin-right: 2vw;
+    height: 30px;
+    width: 8vw;
+}
+
+.bg {
+    margin-top: 4vh;
+}
+
+.input {
+    text-align: center;
+    margin-left: -2vw;
+    margin-top: 3vh;
+    font-size: 1.5rem;
+}
+
+#calcular {
+    margin-top: 5vh;
+    width: 70%;
+    height: 4vh;
+    border-radius: 7px;
+    font-size: 1rem;
+    color: rgb(255, 206, 82);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+
+.resultado {
+    display: flex;
+    align-items: center;
+    margin-top: 2vh;
+    height: 14vh;
+    width: 14vw;
+    background-color: black;
+    margin-left: 16.5%;
+    border-radius: 10px;
+}
+
+#result {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    color: white;
+}
